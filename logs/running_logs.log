@@ -1,1 +1,184 @@
 [2026-09-08 11:19:40,515: INFO: main: welcome to my friend]
+[2026-09-08 13:13:02,260: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-08 15:57:20,306: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-09-08 15:57:20,308: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-08 15:57:20,308: ERROR: main: expected '<document start>', but found '<scalar>'
+  in "params.yaml", line 1, column 6]
+Traceback (most recent call last):
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\main.py", line 13, in <module>
+    data_ingestion.main()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\config\configuration.py", line 17, in __init__
+    self.params = read_yaml(params_filepath)
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\utils\common.py", line 37, in read_yaml
+    raise e
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\utils\common.py", line 31, in read_yaml
+    content = yaml.safe_load(yaml_file)
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\composer.py", line 39, in get_single_node
+    if not self.check_event(StreamEndEvent):
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\parser.py", line 171, in parse_document_start
+    raise ParserError(None, None,
+yaml.parser.ParserError: expected '<document start>', but found '<scalar>'
+  in "params.yaml", line 1, column 6
+[2026-09-08 15:58:04,154: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-09-08 15:58:04,154: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-08 15:58:04,154: ERROR: main: expected '<document start>', but found '<scalar>'
+  in "params.yaml", line 1, column 6]
+Traceback (most recent call last):
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\main.py", line 13, in <module>
+    data_ingestion.main()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\config\configuration.py", line 17, in __init__
+    self.params = read_yaml(params_filepath)
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\utils\common.py", line 37, in read_yaml
+    raise e
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\utils\common.py", line 31, in read_yaml
+    content = yaml.safe_load(yaml_file)
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\composer.py", line 39, in get_single_node
+    if not self.check_event(StreamEndEvent):
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\parser.py", line 171, in parse_document_start
+    raise ParserError(None, None,
+yaml.parser.ParserError: expected '<document start>', but found '<scalar>'
+  in "params.yaml", line 1, column 6
+[2026-09-08 15:58:51,019: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-09-08 15:58:51,019: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-08 15:58:51,019: ERROR: main: expected '<document start>', but found '<scalar>'
+  in "params.yaml", line 1, column 6]
+Traceback (most recent call last):
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\main.py", line 13, in <module>
+    data_ingestion.main()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\config\configuration.py", line 17, in __init__
+    self.params = read_yaml(params_filepath)
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\utils\common.py", line 37, in read_yaml
+    raise e
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\utils\common.py", line 31, in read_yaml
+    content = yaml.safe_load(yaml_file)
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\composer.py", line 39, in get_single_node
+    if not self.check_event(StreamEndEvent):
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\parser.py", line 171, in parse_document_start
+    raise ParserError(None, None,
+yaml.parser.ParserError: expected '<document start>', but found '<scalar>'
+  in "params.yaml", line 1, column 6
+[2026-09-08 15:58:59,579: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-09-08 15:58:59,579: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-08 15:58:59,579: ERROR: main: expected '<document start>', but found '<scalar>'
+  in "params.yaml", line 1, column 6]
+Traceback (most recent call last):
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\main.py", line 13, in <module>
+    data_ingestion.main()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\config\configuration.py", line 17, in __init__
+    self.params = read_yaml(params_filepath)
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\utils\common.py", line 37, in read_yaml
+    raise e
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\utils\common.py", line 31, in read_yaml
+    content = yaml.safe_load(yaml_file)
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\composer.py", line 39, in get_single_node
+    if not self.check_event(StreamEndEvent):
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\yaml\parser.py", line 171, in parse_document_start
+    raise ParserError(None, None,
+yaml.parser.ParserError: expected '<document start>', but found '<scalar>'
+  in "params.yaml", line 1, column 6
+[2026-09-08 16:00:49,447: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-09-08 16:00:49,462: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-08 16:00:49,462: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-08 16:00:49,462: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\utils\common.py", line 33, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 247, in box.box.Box.__init__
+box.exceptions.BoxValueError: Cannot extrapolate Box from string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\main.py", line 13, in <module>
+    data_ingestion.main()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\config\configuration.py", line 17, in __init__
+    self.params = read_yaml(params_filepath)
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\utils\common.py", line 35, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2026-09-08 16:00:54,510: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-09-08 16:00:54,510: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-08 16:00:54,510: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-08 16:00:54,510: ERROR: main: yaml file is empty]
+Traceback (most recent call last):
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\utils\common.py", line 33, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 247, in box.box.Box.__init__
+box.exceptions.BoxValueError: Cannot extrapolate Box from string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\main.py", line 13, in <module>
+    data_ingestion.main()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\config\configuration.py", line 17, in __init__
+    self.params = read_yaml(params_filepath)
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\venv\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "C:\Users\panka\OneDrive\Desktop\projects\Kidney-Disease-Classification\src\cnnClassifier\utils\common.py", line 35, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2026-09-08 16:02:08,146: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-09-08 16:02:08,148: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-08 16:02:08,149: INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-08 16:02:08,149: INFO: common: created directory at: artifacts]
+[2026-09-08 16:02:08,149: INFO: common: created directory at: artifacts/data_ingestion]
+[2026-09-08 16:02:08,150: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-09-08 16:05:59,273: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-09-08 16:05:59,738: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
